@@ -1,26 +1,37 @@
 ## Swing-Calculator-U23MTH1009
 MUHAMMAD-YASIR ALIYU
 U23MTH1009
-## Getting Started
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Swing Calculator
 
-## Folder Structure
+A simple graphical calculator built with Java Swing.
 
-The workspace contains two folders by default, where:
+## Features
+- Basic arithmetic operations: addition, subtraction, multiplication, and division
+- Numeric input using buttons 0-9 and a decimal point
+- Operator selection: +, -, *, /
+- Equals button to calculate results
+- Delete button to remove last input digit
+- Clear button to reset calculator
 
-- src: the folder to maintain sources
-- lib: the folder to maintain dependencies
+## Requirements
+- Java Development Kit (JDK) 8 or later
+- Java Runtime Environment (JRE) 8 or later
 
-Meanwhile, the compiled output files will be generated in the bin folder by default.
+## Usage
+1. Compile the code using `javac SwingCalculators.java`
+2. Run the program using `java SwingCalculators`
+3. Use the calculator's buttons to perform calculations
 
-> If you want to customize the folder structure, open .vscode/settings.json and update the related settings there.
+## Code Structure
+- `SwingCalculators.java`: Main class containing the calculator's UI and logic
+- `actionPerformed` method: Handles button clicks and performs calculations
 
-## Dependency Management
+## Contributing
+Pull requests and issues are welcome. Please submit any contributions or bug reports through GitHub.
 
-The SWING CALCULATOR view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Acknowledgments
+- Oracle Corporation for Java Swing documentation and resources
+- GitHub community for inspiration and guidance
 
-## Project Structure
-- Calcuator with GUI: Based on Swing, located in the src/calculator Directory
-- Command Line Based Calculator: Utilized the scanner package, located in the src Directory 
--
+
